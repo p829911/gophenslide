@@ -1,11 +1,9 @@
 package openslide
 
-// #cgo CFLAGS: -I/usr/include/openslide
-// #cgo LDFLAGS: -lopenslide
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <stdint.h>
-// #include <openslide.h>
+// #include "/usr/local/include/openslide/openslide.h"
 // char * str_at(char ** p, int i) { return p[i]; }
 import "C"
 import (

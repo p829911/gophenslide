@@ -1,3 +1,3 @@
-module github.com/jammy-dodgers/gophenslide
+module github.com/p829911/gophenslide
 
-go 1.13
+go 1.16
